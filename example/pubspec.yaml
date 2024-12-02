@@ -1,0 +1,25 @@
+name: photo_shader_example
+description: Demonstrates how to use the photo_shader plugin.
+
+publish_to: 'none'
+
+environment:
+  sdk: '>=2.18.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  photo_shader:
+    path: ../
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/test_image.jpg
+    - assets/images/test_image_2.jpg
